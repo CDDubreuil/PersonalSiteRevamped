@@ -53,6 +53,11 @@ namespace PersonalSiteRevamped.Controllers
             return View();
         }
 
+        public IActionResult StorefrontDatabase()
+        {
+            return View();
+        }
+
         [HttpGet]
         public IActionResult Contact() 
         {
