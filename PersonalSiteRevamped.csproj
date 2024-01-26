@@ -7,6 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\Images\275375329_368252015163033_190290605408322496_n.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="wwwroot\Images\275375329_368252015163033_190290605408322496_n.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.4" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
     <PackageReference Include="NETCore.MailKit" Version="2.1.0" />

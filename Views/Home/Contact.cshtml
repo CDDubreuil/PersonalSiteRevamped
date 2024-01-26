@@ -16,15 +16,16 @@
 
 
 
-    <div class="container px-10">
-        <h1 class="text-center mt-5">Contact Me</h1>
-    </div>
 
     <!-- ======= Contact Section ======= -->
     <section class="contact py-5 bg-dark" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
         <div class="container px-5">
 
-   
+
+            <h1 class="fw-bolder text-center">Contact Me!</h1>
+            <p class="lead text-dark mb-0">If you'd like to get in touch, please send me a message below and I will respond as quickly as I can!</p>
+
+
             @if (ViewBag.ErrorMessage != null)
             {
                 <div class="row">
@@ -33,17 +34,17 @@
                     </p>
                 </div>
             }
-            <div class="col-lg-8 col-xl-7 col-xxl-6">
+            <div class="col-md-8 mx-auto">
 
                 <div class="my-5 text-center text-xl-start">
 
 
 
-                <form asp-action="Contact" class="php-email-form">
+                <form asp-action="Contact" class="php-email-form ">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="row">
-                        <div class="col-md-6 form-group">
-                            <input asp-for="Name" class="form-control" name="name" id="name" placeholder="Name" required />
+                            <div class="col-md-6 form-group">
+                                <input asp-for="Name" class="form-control" name="name" id="name" placeholder="Name" required />
                             <span asp-validation-for="Name" class="text-danger"></span>
                         </div>
                         <div class="col-md-6 form-group mt-3 mt-md-0">
