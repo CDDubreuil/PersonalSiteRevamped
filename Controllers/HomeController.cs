@@ -56,6 +56,18 @@ namespace PersonalSiteRevamped.Controllers
         public IActionResult StorefrontDatabase()
         {
             return View();
+        }   
+        public IActionResult StorefrontProject()
+        {
+            return View();
+        }
+        public IActionResult SAT()
+        {
+            return View();
+        }
+        public IActionResult AS()
+        {
+            return View();
         }
 
         [HttpGet]
